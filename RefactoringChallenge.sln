@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E93DB37-68B7-4DF8-B552-979AF51F9909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringChallenge.API", "src\RefactoringChallenge.API\RefactoringChallenge.API.csproj", "{9131D661-ED45-452E-902C-547AA71B22EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{77CE9716-B747-40EA-82B0-BDABC546E8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringChallenge.UnitTests", "tests\RefactoringChallenge.UnitTests\RefactoringChallenge.UnitTests.csproj", "{6961F4E5-7853-48D8-96DA-79DDD0A026E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9131D661-ED45-452E-902C-547AA71B22EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9131D661-ED45-452E-902C-547AA71B22EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9131D661-ED45-452E-902C-547AA71B22EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9131D661-ED45-452E-902C-547AA71B22EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6961F4E5-7853-48D8-96DA-79DDD0A026E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6961F4E5-7853-48D8-96DA-79DDD0A026E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6961F4E5-7853-48D8-96DA-79DDD0A026E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6961F4E5-7853-48D8-96DA-79DDD0A026E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9131D661-ED45-452E-902C-547AA71B22EB} = {4E93DB37-68B7-4DF8-B552-979AF51F9909}
+		{6961F4E5-7853-48D8-96DA-79DDD0A026E6} = {77CE9716-B747-40EA-82B0-BDABC546E8A9}
+	EndGlobalSection
+EndGlobal
