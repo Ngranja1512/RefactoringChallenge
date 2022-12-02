@@ -22,22 +22,6 @@ public class AppDbContextInitializer
         new() { id = "U5", Name = "Alberta", Age = 18 }
     };
     
-    public async Task InitializeAsync()
-    {
-        try
-        {
-            if (_context.Database.IsSqlServer())
-            {
-                await _context.Database.MigrateAsync();
-            }
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "An error occurred while initialising the database.");
-            throw;
-        }
-    }
-
     private async Task TrySeedAsync()
     {
         await _context.People.AddRangeAsync(_people);
